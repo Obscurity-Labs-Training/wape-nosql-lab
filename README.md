@@ -4,15 +4,22 @@ This lab provides hands-on experience with MongoDB, where you'll work with CRUD 
 
 ## Setup Instructions
 
+```bash
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/nosql-lab.git
    cd nosql-lab
+   poetry install --no-root
+   poetry  shell
    ```
+   
 
 2. **Run the lab environment** using Docker Compose:
    ```bash
-   docker-compose up
+   docker-compose up -d
    ```
 
 3. **Access MongoDB**:
@@ -46,21 +53,4 @@ This lab provides hands-on experience with MongoDB, where you'll work with CRUD 
 
 ---
 
-### **7. Running the Project**
 
-1. **Students clone the repo**:
-   ```bash
-   git clone https://github.com/your-username/nosql-lab.git
-   cd nosql-lab
-   ```
-
-2. **Run Docker Compose**:
-   ```bash
-   docker compose up
-   ```
-
-3. **Access MongoDB**:
-   - MongoDB will be available on `localhost:27017`.
-   - Students can interact with MongoDB using **MongoDB Compass**, **Mongo Shell**, or **Python**.
-
----
