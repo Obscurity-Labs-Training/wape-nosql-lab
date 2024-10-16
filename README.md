@@ -22,10 +22,8 @@ curl -sSL https://install.python-poetry.org | python3 -
    docker compose up -d
    ```
 
-3. **Access MongoDB**:
+3. **MongoDB**:
    - MongoDB will be running locally on port `27017`.
-   - You can use **MongoDB Compass** or the **Mongo Shell** to interact with it.
-     - Example connection string: `mongodb://localhost:27017/nosql_lab_db`
 
 4. **Run Python Scripts**:
    - Inspect each script prior to running it.
