@@ -30,7 +30,8 @@ curl -sSL https://install.python-poetry.org | python3 -
 4. **Run Python Scripts (Optional)**:
    - You can run `lab.py` to perform operations in MongoDB:
      ```bash
-     python3 lab.py
+     python load_data.py
+     python lab.py
      ```
 
 5. **Lab Tasks**:
