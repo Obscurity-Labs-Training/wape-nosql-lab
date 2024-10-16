@@ -19,7 +19,7 @@ curl -sSL https://install.python-poetry.org | python3 -
 
 2. **Run the lab environment** using Docker Compose:
    ```bash
-   docker-compose up -d
+   docker compose up -d
    ```
 
 3. **Access MongoDB**:
