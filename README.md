@@ -27,7 +27,8 @@ curl -sSL https://install.python-poetry.org | python3 -
    - You can use **MongoDB Compass** or the **Mongo Shell** to interact with it.
      - Example connection string: `mongodb://localhost:27017/nosql_lab_db`
 
-4. **Run Python Scripts (Optional)**:
+4. **Run Python Scripts**:
+   - Inspect each script prior to running it.
    - You can run `lab.py` to perform operations in MongoDB:
      ```bash
      python load_data.py
