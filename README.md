@@ -10,7 +10,7 @@ curl -sSL https://install.python-poetry.org | python3 -
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/nosql-lab.git
+   git clone https://github.com/Obscurity-Labs-Training/wape-nosql-lab.git
    cd nosql-lab
    poetry install --no-root
    poetry  shell
